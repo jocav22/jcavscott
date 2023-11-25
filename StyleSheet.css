@@ -2,3 +2,9 @@
     font-family: Marlboro;
     src: url("fonts/Marlboro.ttf");
 }
+
+h1 {
+  font-family: 'Marlboro';
+  text-align: center;
+  margin-top: 20px;
+}
