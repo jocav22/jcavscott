@@ -13,7 +13,7 @@ h1 {
 a:link {
   color: grey; 
   background-color: transparent; 
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
