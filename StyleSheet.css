@@ -5,7 +5,19 @@
 
 h1 {
   font-family: 'Marlboro';
-  font-size: 25vw;
+  font-size: 15vw;
   text-align: center;
   margin-top: 20px;
+}
+
+a:link {
+  color: grey; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
