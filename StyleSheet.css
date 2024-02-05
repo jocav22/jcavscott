@@ -1,6 +1,6 @@
 @font-face{
     font-family: Asap;
-    src: url("fonts/Asap-VariableFont_wdth,wght.ttf");
+    src: url("fonts/Asap-Regular.ttf");
 }
 
 h1 {
@@ -12,7 +12,8 @@ h1 {
 }
 
 h2 {
-  /*font-size: 8vw;*/
+  font-family: 'Asap';
+  font-size: 8vw;
   font-size: clamp(5px, 8vw, 60px);
   text-align: center;
   margin-top: 10px;
