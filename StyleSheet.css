@@ -5,7 +5,8 @@
 
 h1 {
   /*font-family: 'Marlboro';*/
-  font-size: 15vw;
+  /*font-size: 15vw;*/
+  font-size: clamp(10px, 15vw, 36px);
   text-align: center;
   margin-top: 20px;
 }
