@@ -1,10 +1,10 @@
 @font-face{
-    font-family: Asap;
-    src: url("fonts/Asap-Regular.ttf");
+    font-family: Barlow;
+    src: url("fonts/BarlowCondensed-Light.ttf");
 }
 
 h1 {
-  font-family: 'Asap';
+  font-family: 'Barlow';
   font-size: 15vw;
   font-size: clamp(10px, 15vw, 72px);
   text-align: center;
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Asap';
+  font-family: 'Barlow';
   font-size: 8vw;
   font-size: clamp(5px, 8vw, 60px);
   text-align: center;
