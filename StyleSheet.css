@@ -6,14 +6,14 @@
 h1 {
   /*font-family: 'Marlboro';*/
   /*font-size: 15vw;*/
-  font-size: clamp(10px, 15vw, 36px);
+  font-size: clamp(10px, 15vw, 72px);
   text-align: center;
   margin-top: 20px;
 }
 
 h2 {
   /*font-size: 8vw;*/
-  font-size: clamp(5px, 8vw, 24px);
+  font-size: clamp(5px, 8vw, 60px);
   text-align: center;
   margin-top: 10px;
 }
