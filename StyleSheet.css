@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   font-family: 'Barlow';
-  font-size: 8vw;
+  font-size: 3vw;
   font-size: clamp(5px, 8vw, 60px);
   text-align: center;
   margin-top: 10px;
