@@ -1,10 +1,10 @@
 @font-face{
-    font-family: Marlboro;
-    src: url("fonts/Marlboro.ttf");
+    font-family: Asap;
+    src: url("fonts/Asap-VariableFont_wdth,wght.ttf");
 }
 
 h1 {
-  font-family: 'Asap-VariableFont_wdth,wght';
+  font-family: 'Asap';
   font-size: 15vw;
   font-size: clamp(10px, 15vw, 72px);
   text-align: center;
