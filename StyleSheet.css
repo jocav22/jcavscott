@@ -5,7 +5,7 @@
 
 h1 {
   font-family: 'Barlow';
-  font-size: 15vw;
+  font-size: 20vw;
   font-size: clamp(10px, 15vw, 72px);
   text-align: center;
   margin-top: 20px;
