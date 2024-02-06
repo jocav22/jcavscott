@@ -11,7 +11,7 @@ h1 {
   margin-top: 20px;
 }
 
-h2 {
+h4 {
   font-family: 'Barlow';
   font-size: 3vw;
   font-size: clamp(5px, 8vw, 60px);
