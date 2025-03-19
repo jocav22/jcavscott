@@ -1,52 +1,39 @@
-/* Import font properly */
-@font-face {
-    font-family: 'Barlow';
-    src: url("fonts/BarlowCondensed-Light.ttf") format('truetype');
-    font-display: swap;
+@font-face{
+    font-family: Barlow;
+    src: url("fonts/BarlowCondensed-Light.ttf");
 }
 
-/* Reset and global styles */
-body {
-    background-color: #3E424B;
-    color: grey;
-    font-family: 'Barlow', sans-serif;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Headings */
 h1 {
-    font-size: clamp(24px, 15vw, 72px);
-    margin-top: 20px;
+  font-family: 'Barlow';
+  font-size: 20vw;
+  font-size: clamp(10px, 15vw, 72px);
+  text-align: center;
+  margin-top: 20px;
 }
 
-h3, h4 {
-    font-size: clamp(12px, 6vw, 32px);
-    margin-top: 10px;
+h4 {
+  font-family: 'Barlow';
+  font-size: 3vw;
+  font-size: clamp(5px, 8vw, 60px);
+  text-align: center;
+  margin-top: 10px;
 }
 
-/* Links */
-a {
-    color: grey;
-    text-decoration: underline;
-    transition: color 0.3s ease-in-out;
+a:link {
+  color: grey; 
+  background-color: transparent; 
+  text-decoration: underline;
 }
 
 a:hover {
-    color: white;
+  color: white; 
+  background-color: transparent; 
+  text-decoration: underline;
 }
 
 a:visited {
-    color: grey;
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-/* Image */
-img {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    display: block;
-    margin: 20px auto;
-}
